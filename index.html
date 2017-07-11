@@ -3,28 +3,32 @@
     <head>
         <meta charset="UTF-8">
         <meta name="description" content="A site about comics book characters and dc universe">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Radoslaw Stepniewski">
+        <meta name="keywords" content="Superman, Batman, Dc comics, comics">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>DC Comics</title>
     </head>
     <body>
         <div id="wrapper">
             <header>
-                <img src="Justice-League-2.jpg" alt="justice league on front ground" width="1000" height="350"/>
-                <h1>Heroes and Universe DC Comics</h1>
+                <img src="Justice-League-2.jpg" alt="justice league on front ground"/>
+                <h1>Heroes and Universe <br/>DC Comics</h1>
             </header>
             <nav>
-                <ul>
-                    <li><a href="http://dccomicsnews.com/">News</a></li>
-                    <li><a href="http://www.ranker.com/crowdranked-list/best-dc-comics-heroes">Heroes</a></li>
-                    <li><a href="http://www.imdb.com/list/ls057229675/">Movies</a></li>
-                    <li><a href="http://www.dccomics.com/comics">Comics</a></li>
-                </ul>
+                <a class="activemenu" href="http://dccomicsnews.com/" target="_blank">News</a>
+                <a class="menu" href="http://www.dccomics.com/characters" target="_blank">Heroes</a>
+                <a class="menu" href="http://www.imdb.com/list/ls057229675/" target="_blank">Movies</a>
+                <a class="menu" href="http://www.dccomics.com/comics" target="_blank">Comics</a>
+                <a class="menu" href="http://www.dcentertainment.com/#contact" target="_blank">Contact</a>
             </nav>
             <main>
                 <section>
                     <article>
                         <h1>DC Comics - description</h1>
-                        <p>
-                            DC Comics, Inc. is an American comic book publisher. It is the publishing unit of DC
+                        <p><img src="dc.jpg" alt="logo dc comics">
+                            <strong>DC Comics, Inc.</strong> is an American comic book publisher. It is the publishing
+                            unit of DC
                             Entertainment, a subsidiary of Warner Bros. Entertainment, Inc., a division of Time Warner.
                             DC
                             Comics is one of the largest and oldest American comic book companies, and produces material
@@ -64,17 +68,39 @@
                             Diamond
                             Comic Distributors supplies the comics shop specialty market.[citation needed] DC Comics and
                             its
-                            major, longtime competitor Marvel Comics (acquired in 2009 by The Walt Disney Company, Time
+                            major, longtime competitor <em>Marvel Comics</em> (acquired in 2009 by The Walt Disney
+                            Company, Time
                             Warner's
                             main competitor) together shared 70% of the American comic book market in 2016.
                         </p>
                     </article>
-                    <iframe width="1280" height="720" src="https://www.youtube.com/embed/nIZBbaNvJAY" frameborder="0"
+                    <iframe width="560" height="320" src="https://www.youtube.com/embed/nIZBbaNvJAY" frameborder="0"
                             allowfullscreen>
-
                     </iframe>
                 </section>
             </main>
+            <aside>
+                <article>
+                    <h1><a href="http://www.ranker.com/crowdranked-list/best-dc-comics-heroes" target="_blank">Top5
+                        Heroes</a></h1>
+                    <ul>
+                        <li><a class="hero" href="http://www.ranker.com/review/batman/549942" target="_blank">Batman</a>
+                        </li>
+                        <br><br>
+                        <li><a class="hero" href="http://www.ranker.com/review/flash/998295" target="_blank">Flash</a>
+                        </li>
+                        <br><br>
+                        <li><a class="hero" href="http://www.ranker.com/review/superman/2124152" target="_blank">Superman</a>
+                        </li>
+                        <br><br>
+                        <li><a class="hero" href="http://www.ranker.com/review/wonder-woman/2408656" target="_blank">Wonder
+                            Woman</a></li>
+                        <br><br>
+                        <li><a class="hero" href="http://www.ranker.com/review/dick-grayson/854440">Dick Grayson</a>
+                        </li>
+                    </ul>
+                </article>
+            </aside>
             <footer>&copy;Copyrights 2017 Radoslaw Stepniewski</footer>
         </div>
     </body>
