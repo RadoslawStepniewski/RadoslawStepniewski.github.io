@@ -20,8 +20,7 @@ header{
     background-color: #008b8b;
     color: #ffffff;
     border: #8b0000 0.2em solid;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 header img{
     width: 40%;
@@ -98,15 +97,15 @@ aside article {
     height: 701px;
 
 }
-aside article h1{
+aside article h2{
     font-size: 2.2em;
     display: inline;
 }
-aside article h1 a{
+aside article h2 a{
     text-decoration: none;
     color: #000000;
 }
-aside article h1 a:hover{
+aside article h2 a:hover{
     background-color: #dc143f;
     color: #ffffff;
     font-size: 1.2em;
@@ -114,6 +113,7 @@ aside article h1 a:hover{
 aside article ul li{
     font-size: 1.5em;
     background-color: #008b8b;
+    margin-top: 2em;
 }
 aside article ul li:hover{
     background-color: #dc143f;
