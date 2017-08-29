@@ -6,14 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Radoslaw Stepniewski">
     <meta name="keywords" content="Superman, Batman, Dc comics, comics">
-    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
     <title>DC Comics</title>
 </head>
 <body>
-<div class="wrapper">
-    <header class="header">
-        <img class="header__logo" src="./images/Justice-League-2.jpg" alt="justice league on front ground"/>
-        <h1 class="header__logotext">Heroes and Universe <span>DC Comics</span></h1>
+<div class="container">
+    <header class="row">
+        <div class="col-xs-12">
+            <div class="row">
+                <div class="col-xs-3">
+                    <img src="./images/Justice-League-2.jpg" class="img-resposive"
+                         alt="justice league on front ground"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-9">
+                    <h1 class="header-logotext">Heroes and Universe <span>DC Comics</span></h1>
+                </div>
+            </div>
+        </div>
     </header>
     <nav class="nav">
         <a class="nav__menu" href="http://dccomicsnews.com/" target="_blank">News</a>
@@ -101,6 +112,10 @@
     </aside>
     <footer class="footer">&copy;Copyrights 2017 Radoslaw Stepniewski</footer>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+<script src="js/bootstrap.min.js"></script>
+
 </body>
 </html>
 
