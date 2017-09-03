@@ -5,5 +5,12 @@ body{
     display: flex;
     justify-content: center;
 }
-
+footer{
+    text-align: center;
+}
+.navigation {
+    width: 100%;
+}
+.navigation li{
+    width: 25%;
 }
